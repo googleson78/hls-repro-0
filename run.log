@@ -1,0 +1,37 @@
+No 'hie.yaml' found. Try to discover the project type!
+Run entered for haskell-language-server-wrapper(haskell-language-server-wrapper) Version 1.4.0.0, Git revision 253547816ee216c53ee7dacc0ad3cac43e863d30 (dirty) x86_64 ghc-8.10.4
+Current directory: /home/googleson78/git/hls-repro-0
+Operating system: linux
+Arguments: ["-d","-lhls.log"]
+Cradle directory: /home/googleson78/git/hls-repro-0
+Cradle type: Stack
+
+Tool versions found on the $PATH
+cabal:		3.6.0.0
+stack:		2.7.3
+ghc:		8.8.4
+
+
+Consulting the cradle to get project GHC version...
+Project GHC version: 9.0.1
+haskell-language-server exe candidates: ["haskell-language-server-9.0.1","haskell-language-server"]
+Launching haskell-language-server exe at:/home/googleson78/.ghcup/bin/haskell-language-server-9.0.1
+haskell-language-server version: 1.4.0.0 (GHC: 9.0.1) (PATH: /home/googleson78/.ghcup/bin/haskell-language-server-9.0.1~1.4.0) (GIT hash: 253547816ee216c53ee7dacc0ad3cac43e863d30)
+ ghcide setup tester in /home/googleson78/git/hls-repro-0.
+Report bugs at https://github.com/haskell/haskell-language-server/issues
+
+Step 1/4: Finding files to test in /home/googleson78/git/hls-repro-0
+Found 1 files
+
+Step 2/4: Looking for hie.yaml files that control setup
+Found 1 cradle
+  ()
+
+Step 3/4: Initializing the IDE
+
+Step 4/4: Type checking the files
+Output from setting up the cradle Cradle {cradleRootDir = "/home/googleson78/git/hls-repro-0", cradleOptsProg = CradleAction: Stack}
+
+Completed (1 file worked, 0 files failed)
+haskell-language-server-9.0.1: allocatestack.c:384: advise_stack_range: Assertion `freesize < size' failed.
+haskell-language-server-wrapper: callProcess: /home/googleson78/.ghcup/bin/haskell-language-server-9.0.1 "-d" "-lhls.log" (exit -6): failed

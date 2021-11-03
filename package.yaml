@@ -1,0 +1,10 @@
+name:    hls-repro
+version: 0.1.0.0
+
+dependencies:
+- base
+- directory
+
+
+library:
+  source-dirs: src
